@@ -1,0 +1,102 @@
+.popover {
+    position: relative;
+    display: inline-block;
+}
+
+.popover--link {
+    margin: 0;
+    border: 0;
+    border-radius: 30px;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    line-height: 1;
+    color: #DBDBDB;
+}
+
+.popover--link i:hover {
+    color: #3d3d3d;
+}
+
+.popover--message {
+    display: none;
+    position: absolute;
+    width: 310px;
+    text-align: left;
+    line-height: 1.2em;
+    word-wrap: break-word;
+    padding: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.21);
+    color: #3D3D3D;
+    background: #fff;
+    z-index: 1020;
+    cursor: pointer;
+}
+
+.popover--message--top {
+    top: -50px;
+    left: -150px;
+    display: none;
+    position: absolute;
+    text-align: left;
+    line-height: 1.2em;
+    word-wrap: break-word;
+    padding: 1em;
+}
+
+.popover--message--bottom {
+    display: none;
+    position: absolute;
+    text-align: left;
+    line-height: 1.2em;
+    word-wrap: break-word;
+    padding: 1em;
+    top: 40px;
+    left: -150px;
+}
+
+.popover--message--left {
+    top: 0px;
+    left: -325px;
+    display: none;
+    position: absolute;
+    text-align: left;
+    line-height: 1.2em;
+    word-wrap: break-word;
+    padding: 1em;
+}
+
+.popover--message--right {
+    top: 0px;
+    right: -325px;
+    display: none;
+    position: absolute;
+    text-align: left;
+    line-height: 1.2em;
+    word-wrap: break-word;
+    padding: 1em;
+}
+
+.popover--message.show-popover {
+    display: block;
+    overflow: hidden;
+    white-space: normal;
+    opacity: 0;
+    transition: .35s linear;
+}
+
+.popover--message.show-popover.popover-fade {
+    opacity: 1;
+    transition: .25s linear;
+}
+
+.popover-footer--action {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}

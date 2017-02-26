@@ -1,0 +1,364 @@
+[21-Dec-2016 17:44:38 Europe/London] PHP Fatal error:  Class 'Controllers\Welcome' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 17:44:50 Europe/London] PHP Fatal error:  Class 'Controllers\Welcome' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:21:00 Europe/London] PHP Fatal error:  Class 'Controllers\AuthController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:21:00 Europe/London] PHP Fatal error:  Class 'Controllers\AuthController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:22:25 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:23:10 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:23:20 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:24:01 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:24:10 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:25:25 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:25:29 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:25:30 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:25:30 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:25:30 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:25:30 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:28:15 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:28:15 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:28:54 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:29:19 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:29:21 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:29:24 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:29:25 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:29:25 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:29:26 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:29:26 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:29:40 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:32:01 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:32:16 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:34:42 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:34:53 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:37:26 Europe/London] PHP Fatal error:  Call to a member function getHash() on a non-object in /home/tpronschinske/public_html/junocms.com/app/Controllers/AuthController.php on line 37
+[21-Dec-2016 18:38:03 Europe/London] PHP Fatal error:  Call to a member function getHash() on a non-object in /home/tpronschinske/public_html/junocms.com/app/Controllers/AuthController.php on line 37
+[21-Dec-2016 18:39:11 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:40:17 Europe/London] PHP Fatal error:  Class 'Controllers\AdminController' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 122
+[21-Dec-2016 18:42:23 Europe/London] PHP Fatal error:  Call to a member function getHash() on a non-object in /home/tpronschinske/public_html/junocms.com/app/Controllers/AuthController.php on line 37
+[21-Dec-2016 18:44:13 Europe/London] PHP Fatal error:  Call to a member function getHash() on a non-object in /home/tpronschinske/public_html/junocms.com/app/Controllers/AuthController.php on line 37
+[21-Dec-2016 18:45:13 Europe/London] PHP Fatal error:  Call to a member function getHash() on a non-object in /home/tpronschinske/public_html/junocms.com/app/Controllers/AuthController.php on line 37
+[21-Dec-2016 18:46:51 Europe/London] PHP Fatal error:  Class 'Models\Authorize' not found in /home/tpronschinske/public_html/junocms.com/app/Controllers/AuthController.php on line 14
+[21-Dec-2016 18:56:44 Europe/London] PHP Fatal error:  Call to a member function run() on a non-object in /home/tpronschinske/public_html/junocms.com/app/templates/site/header.php on line 13
+[21-Dec-2016 20:39:44 Europe/London] PHP Fatal error:  Class 'Helpers\Block' not found in /home/tpronschinske/public_html/junocms.com/app/views/pages/home-page.php on line 87
+[21-Dec-2016 20:39:54 Europe/London] PHP Fatal error:  Class 'Helpers\Block' not found in /home/tpronschinske/public_html/junocms.com/app/views/pages/home-page.php on line 87
+[22-Dec-2016 16:25:01 Europe/London] PHP Parse error:  syntax error, unexpected ''data-validation-event'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/add.php on line 49
+[22-Dec-2016 16:50:50 Europe/London] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/edit.php on line 23
+[22-Dec-2016 21:16:58 Europe/London] PHP Fatal error:  Class 'Session' not found in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/add.php on line 83
+[22-Dec-2016 21:17:17 Europe/London] PHP Fatal error:  Class 'Session' not found in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/add.php on line 83
+[22-Dec-2016 21:17:46 Europe/London] PHP Fatal error:  Class 'Session' not found in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/add.php on line 83
+[22-Dec-2016 21:18:43 Europe/London] PHP Fatal error:  Class 'Session' not found in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/add.php on line 83
+[22-Dec-2016 21:20:44 Europe/London] PHP Fatal error:  Class 'Session' not found in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/add.php on line 83
+[22-Dec-2016 22:04:56 Europe/London] PHP Fatal error:  Call to a member function pageLinks() on a non-object in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 36
+[22-Dec-2016 22:05:00 Europe/London] PHP Fatal error:  Call to a member function pageLinks() on a non-object in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 36
+[22-Dec-2016 22:05:30 Europe/London] PHP Fatal error:  Call to a member function pageLinks() on a non-object in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 36
+[22-Dec-2016 22:06:37 Europe/London] PHP Fatal error:  Call to a member function pageLinks() on a non-object in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 36
+[22-Dec-2016 22:07:30 Europe/London] PHP Fatal error:  Call to a member function pageLinks() on a non-object in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 36
+[22-Dec-2016 22:09:32 Europe/London] PHP Fatal error:  Call to undefined method Models\Pages::getAllProjectP() in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 35
+[22-Dec-2016 22:09:35 Europe/London] PHP Fatal error:  Call to undefined method Models\Pages::getAllProjectP() in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 35
+[22-Dec-2016 22:10:04 Europe/London] PHP Fatal error:  Call to undefined method Models\Pages::getAllProjectP() in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 35
+[22-Dec-2016 22:10:38 Europe/London] PHP Fatal error:  Call to undefined method Models\Pages::getAllProjectP() in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 35
+[22-Dec-2016 22:10:41 Europe/London] PHP Fatal error:  Call to undefined method Models\Pages::getAllProjectP() in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 35
+[23-Dec-2016 15:36:58 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 15:39:17 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 15:41:49 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 15:42:39 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 15:45:26 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 15:45:47 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 15:52:02 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 15:52:35 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 15:52:40 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 15:52:58 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:00:22 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:02:08 Europe/London] PHP Fatal error:  Class 'Session' not found in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/index.php on line 15
+[23-Dec-2016 16:02:49 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:02:55 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:03:21 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:03:36 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:04:32 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:04:39 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:05:01 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:06:11 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:06:19 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:07:34 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:07:37 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:07:56 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:08:11 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:11:12 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:11:17 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:11:25 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:12:01 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:12:04 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:12:12 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:13:13 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:13:56 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:15:48 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:17:43 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:17:52 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:18:36 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:19:07 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:21:46 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:22:15 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:22:18 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[23-Dec-2016 16:22:20 Europe/London] PHP Fatal error:  Class 'Assets' not found in /home/tpronschinske/public_html/junocms.com/app/templates/admin/_bundle.php on line 3
+[28-Dec-2016 19:07:46 Europe/London] PHP Parse error:  syntax error, unexpected ',' in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/index.php on line 48
+[28-Dec-2016 19:19:28 Europe/London] PHP Parse error:  syntax error, unexpected ',' in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/index.php on line 48
+[28-Dec-2016 20:26:59 UTC] PHP Notice:  Use of undefined constant DB_TYPE - assumed 'DB_TYPE' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 36
+[28-Dec-2016 20:26:59 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 37
+[28-Dec-2016 20:26:59 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 38
+[28-Dec-2016 20:26:59 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 39
+[28-Dec-2016 20:26:59 UTC] PHP Notice:  Use of undefined constant DB_PASS - assumed 'DB_PASS' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 40
+[28-Dec-2016 20:26:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:62
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(62): PDO->__construct('DB_TYPE:host=DB...', 'DB_USER', 'DB_PASS')
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Model.php(33): Helpers\Database::get()
+#2 /home/tpronschinske/public_html/junocms.com/app/Models/Settings.php(6): Core\Model->__construct()
+#3 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(16): Models\Settings->__construct()
+#4 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#5 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 62
+[28-Dec-2016 20:26:59 UTC] PHP Notice:  Use of undefined constant DB_TYPE - assumed 'DB_TYPE' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 36
+[28-Dec-2016 20:26:59 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 37
+[28-Dec-2016 20:26:59 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 38
+[28-Dec-2016 20:26:59 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 39
+[28-Dec-2016 20:26:59 UTC] PHP Notice:  Use of undefined constant DB_PASS - assumed 'DB_PASS' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 40
+[28-Dec-2016 20:26:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:62
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(62): PDO->__construct('DB_TYPE:host=DB...', 'DB_USER', 'DB_PASS')
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Model.php(33): Helpers\Database::get()
+#2 /home/tpronschinske/public_html/junocms.com/app/Models/Settings.php(6): Core\Model->__construct()
+#3 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(16): Models\Settings->__construct()
+#4 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#5 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 62
+[28-Dec-2016 20:27:00 UTC] PHP Notice:  Use of undefined constant DB_TYPE - assumed 'DB_TYPE' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 36
+[28-Dec-2016 20:27:00 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 37
+[28-Dec-2016 20:27:00 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 38
+[28-Dec-2016 20:27:00 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 39
+[28-Dec-2016 20:27:00 UTC] PHP Notice:  Use of undefined constant DB_PASS - assumed 'DB_PASS' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 40
+[28-Dec-2016 20:27:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:62
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(62): PDO->__construct('DB_TYPE:host=DB...', 'DB_USER', 'DB_PASS')
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Model.php(33): Helpers\Database::get()
+#2 /home/tpronschinske/public_html/junocms.com/app/Models/Settings.php(6): Core\Model->__construct()
+#3 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(16): Models\Settings->__construct()
+#4 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#5 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 62
+[28-Dec-2016 20:27:00 UTC] PHP Notice:  Use of undefined constant DB_TYPE - assumed 'DB_TYPE' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 36
+[28-Dec-2016 20:27:00 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 37
+[28-Dec-2016 20:27:00 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 38
+[28-Dec-2016 20:27:00 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 39
+[28-Dec-2016 20:27:00 UTC] PHP Notice:  Use of undefined constant DB_PASS - assumed 'DB_PASS' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 40
+[28-Dec-2016 20:27:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:62
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(62): PDO->__construct('DB_TYPE:host=DB...', 'DB_USER', 'DB_PASS')
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Model.php(33): Helpers\Database::get()
+#2 /home/tpronschinske/public_html/junocms.com/app/Models/Settings.php(6): Core\Model->__construct()
+#3 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(16): Models\Settings->__construct()
+#4 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#5 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 62
+[28-Dec-2016 20:27:55 UTC] PHP Notice:  Use of undefined constant DB_TYPE - assumed 'DB_TYPE' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 36
+[28-Dec-2016 20:27:55 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 37
+[28-Dec-2016 20:27:55 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 38
+[28-Dec-2016 20:27:55 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 39
+[28-Dec-2016 20:27:55 UTC] PHP Notice:  Use of undefined constant DB_PASS - assumed 'DB_PASS' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 40
+[28-Dec-2016 20:27:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:62
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(62): PDO->__construct('DB_TYPE:host=DB...', 'DB_USER', 'DB_PASS')
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Model.php(33): Helpers\Database::get()
+#2 /home/tpronschinske/public_html/junocms.com/app/Models/Settings.php(6): Core\Model->__construct()
+#3 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(16): Models\Settings->__construct()
+#4 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#5 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 62
+[28-Dec-2016 20:27:55 UTC] PHP Notice:  Use of undefined constant DB_TYPE - assumed 'DB_TYPE' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 36
+[28-Dec-2016 20:27:55 UTC] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 37
+[28-Dec-2016 20:27:55 UTC] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 38
+[28-Dec-2016 20:27:55 UTC] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 39
+[28-Dec-2016 20:27:55 UTC] PHP Notice:  Use of undefined constant DB_PASS - assumed 'DB_PASS' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 40
+[28-Dec-2016 20:27:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:62
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(62): PDO->__construct('DB_TYPE:host=DB...', 'DB_USER', 'DB_PASS')
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Model.php(33): Helpers\Database::get()
+#2 /home/tpronschinske/public_html/junocms.com/app/Models/Settings.php(6): Core\Model->__construct()
+#3 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(16): Models\Settings->__construct()
+#4 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#5 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 62
+[28-Dec-2016 20:28:13 UTC] PHP Fatal error:  Class 'Core\Models\Settings' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Config.php on line 16
+[28-Dec-2016 20:28:13 UTC] PHP Fatal error:  Class 'Core\Models\Settings' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Config.php on line 16
+[28-Dec-2016 20:28:13 UTC] PHP Fatal error:  Class 'Core\Models\Settings' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Config.php on line 16
+[28-Dec-2016 20:28:14 UTC] PHP Fatal error:  Class 'Core\Models\Settings' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Config.php on line 16
+[28-Dec-2016 20:28:27 UTC] PHP Fatal error:  Class 'app\Models\Settings' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Config.php on line 16
+[28-Dec-2016 20:28:27 UTC] PHP Fatal error:  Class 'app\Models\Settings' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Config.php on line 16
+[28-Dec-2016 20:28:28 UTC] PHP Fatal error:  Class 'app\Models\Settings' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Config.php on line 16
+[28-Dec-2016 20:28:28 UTC] PHP Fatal error:  Class 'app\Models\Settings' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Config.php on line 16
+[28-Dec-2016 20:28:28 UTC] PHP Fatal error:  Class 'app\Models\Settings' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Config.php on line 16
+[28-Dec-2016 20:28:28 UTC] PHP Fatal error:  Class 'app\Models\Settings' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Config.php on line 16
+[28-Dec-2016 20:28:28 UTC] PHP Fatal error:  Class 'app\Models\Settings' not found in /home/tpronschinske/public_html/junocms.com/app/Core/Config.php on line 16
+[28-Dec-2016 20:34:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'open_cms.settings' doesn't exist' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:109
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(38): Helpers\Database->select('SELECT * FROM s...')
+#2 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#3 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 109
+[28-Dec-2016 20:34:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'open_cms.settings' doesn't exist' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:109
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(38): Helpers\Database->select('SELECT * FROM s...')
+#2 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#3 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 109
+[28-Dec-2016 20:34:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'open_cms.settings' doesn't exist' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:109
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(38): Helpers\Database->select('SELECT * FROM s...')
+#2 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#3 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 109
+[28-Dec-2016 20:34:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'open_cms.settings' doesn't exist' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:109
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(38): Helpers\Database->select('SELECT * FROM s...')
+#2 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#3 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 109
+[28-Dec-2016 20:34:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'open_cms.settings' doesn't exist' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:109
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(38): Helpers\Database->select('SELECT * FROM s...')
+#2 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#3 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 109
+[28-Dec-2016 20:34:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'open_cms.settings' doesn't exist' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:109
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(38): Helpers\Database->select('SELECT * FROM s...')
+#2 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#3 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 109
+[28-Dec-2016 20:34:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'open_cms.settings' doesn't exist' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:109
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(38): Helpers\Database->select('SELECT * FROM s...')
+#2 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#3 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 109
+[28-Dec-2016 20:34:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'open_cms.settings' doesn't exist' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:109
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(38): Helpers\Database->select('SELECT * FROM s...')
+#2 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#3 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 109
+[28-Dec-2016 20:34:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'open_cms.settings' doesn't exist' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:109
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(38): Helpers\Database->select('SELECT * FROM s...')
+#2 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#3 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 109
+[28-Dec-2016 20:34:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'open_cms.settings' doesn't exist' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:109
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(38): Helpers\Database->select('SELECT * FROM s...')
+#2 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#3 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 109
+[28-Dec-2016 20:35:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'open_cms.settings' doesn't exist' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:109
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(38): Helpers\Database->select('SELECT * FROM s...')
+#2 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#3 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 109
+[28-Dec-2016 20:35:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'open_cms.settings' doesn't exist' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:109
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(38): Helpers\Database->select('SELECT * FROM s...')
+#2 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#3 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 109
+[28-Dec-2016 20:35:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'open_cms.settings' doesn't exist' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:109
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(38): Helpers\Database->select('SELECT * FROM s...')
+#2 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#3 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 109
+[28-Dec-2016 20:35:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'open_cms.settings' doesn't exist' in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php:109
+Stack trace:
+#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Core/Config.php(38): Helpers\Database->select('SELECT * FROM s...')
+#2 /home/tpronschinske/public_html/junocms.com/index.php(77): Core\Config->__construct()
+#3 {main}
+  thrown in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 109
+[29-Dec-2016 15:13:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/_themeSelectPartial.php on line 17
+[29-Dec-2016 15:14:01 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/theme-settings.php on line 71
+[29-Dec-2016 15:15:07 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/theme-settings.php on line 71
+[29-Dec-2016 15:15:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/theme-settings.php on line 71
+[29-Dec-2016 16:41:06 UTC] PHP Fatal error:  Call to a member function getMainMenuItems() on a non-object in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminMenuController.php on line 70
+[29-Dec-2016 16:49:18 UTC] PHP Fatal error:  Class 'Database' not found in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/menu/edit.php on line 31
+[29-Dec-2016 18:11:34 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/menu/_menuDisplay.php on line 22
+[29-Dec-2016 18:11:52 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/menu/_menuDisplay.php on line 22
+[29-Dec-2016 18:12:54 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/menu/_menuDisplay.php on line 22
+[29-Dec-2016 18:13:06 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/menu/_menuDisplay.php on line 22
+[29-Dec-2016 18:14:58 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/menu/_menuDisplay.php on line 26
+[29-Dec-2016 18:18:53 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/menu/_menuDisplay.php on line 26
+[29-Dec-2016 18:19:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/menu/_menuDisplay.php on line 45
+[29-Dec-2016 18:19:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/menu/_menuDisplay.php on line 45
+[29-Dec-2016 18:21:37 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/menu/_menuDisplay.php on line 26
+[29-Dec-2016 18:22:13 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/menu/_menuDisplay.php on line 26
+[29-Dec-2016 18:22:21 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/menu/_menuDisplay.php on line 26
+[29-Dec-2016 18:23:03 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/menu/_menuDisplay.php on line 26
+[29-Dec-2016 18:24:55 UTC] PHP Fatal error:  Call to a member function select() on a non-object in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/menu/_menuDisplay.php on line 27
+[29-Dec-2016 18:48:02 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:48:03 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:50:10 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:50:10 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:50:39 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:50:39 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:52:09 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:52:09 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:52:10 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:52:10 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:57:24 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:57:24 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:57:52 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:57:52 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:57:55 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:58:31 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:58:32 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:58:33 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:58:34 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:58:35 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:58:35 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:59:38 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 18:59:38 UTC] PHP Fatal error:  Class 'Menu' not found in /home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php on line 17
+[29-Dec-2016 21:01:55 UTC] PHP Fatal error:  Class 'Models\Menus' not found in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 25
+[29-Dec-2016 21:02:58 UTC] PHP Fatal error:  Class 'Models\Menus' not found in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 25
+[29-Dec-2016 21:03:54 UTC] PHP Fatal error:  Class 'Models\Menus' not found in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 25
+[29-Dec-2016 21:04:10 UTC] PHP Fatal error:  Class 'Models\Menus' not found in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 25
+[29-Dec-2016 22:06:41 UTC] PHP Fatal error:  Call to undefined function Controllers\postData() in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 57
+[30-Dec-2016 16:58:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 13
+[30-Dec-2016 17:37:17 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 33
+[30-Dec-2016 17:38:04 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 33
+[30-Dec-2016 18:15:03 UTC] PHP Fatal error:  Call to a member function getAllMenus() on a non-object in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminContentAreaController.php on line 29
+[30-Dec-2016 18:15:06 UTC] PHP Fatal error:  Call to a member function getAllMenus() on a non-object in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminContentAreaController.php on line 29
+[30-Dec-2016 18:15:33 UTC] PHP Fatal error:  Call to a member function getAllMenus() on a non-object in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminContentAreaController.php on line 29
+[30-Dec-2016 18:22:17 UTC] PHP Fatal error:  Class 'Modules\ContentArea' not found in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminContentAreaController.php on line 23
+[30-Dec-2016 18:24:52 UTC] PHP Fatal error:  Class 'Modules\ContentArea' not found in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminContentAreaController.php on line 23
+[30-Dec-2016 18:25:33 UTC] PHP Fatal error:  Class 'Modules\ContentArea' not found in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminContentAreaController.php on line 23
+[30-Dec-2016 18:25:44 UTC] PHP Fatal error:  Class 'Modules\ContentArea' not found in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminContentAreaController.php on line 23
+[30-Dec-2016 18:25:45 UTC] PHP Fatal error:  Class 'Modules\ContentArea' not found in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminContentAreaController.php on line 23
+[01-Jan-2017 01:54:07 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 63
+[01-Jan-2017 01:54:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 63
+[01-Jan-2017 01:55:06 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 67
+[01-Jan-2017 01:55:12 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 67
+[01-Jan-2017 01:58:27 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 81
+[01-Jan-2017 03:21:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 41
+[01-Jan-2017 03:35:22 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 44
+[01-Jan-2017 03:45:22 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 29
+[01-Jan-2017 04:08:49 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133169152 bytes) in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 37
+[01-Jan-2017 04:08:54 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133169152 bytes) in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 37
+[01-Jan-2017 04:13:17 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 133169152 bytes) in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 23

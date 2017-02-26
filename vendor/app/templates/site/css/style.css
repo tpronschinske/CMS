@@ -1,0 +1,18 @@
+/* Your styles here */
+
+header {
+    height: 68px;
+    background: #3d3d3d;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content.page-banner img {
+    width: 100%;
+}

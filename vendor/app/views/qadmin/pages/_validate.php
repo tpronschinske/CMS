@@ -1,0 +1,6 @@
+<script>
+
+$("form").validate();
+
+
+</script>

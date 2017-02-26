@@ -1,0 +1,55 @@
+.card_body {
+    width: 100%;
+}
+
+.card_footer {
+    width: 100%;
+}
+
+.message {
+    font-size: 12px;
+    line-height: 1.3em;
+}
+
+.application_main .application_content-area {
+    border-left: 1px solid #ccc;
+}
+
+.toast {
+    padding: 1em;
+    cursor: pointer;
+    top: 75px;
+    right: 10px;
+}
+
+.toast:hover {
+    opacity: .97;
+}
+
+.toast-close {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.toast-close i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.message_success {
+    border-bottom: 3px solid #bce1c0;
+}
+
+.message_success h6 {
+    color: #fff;
+}

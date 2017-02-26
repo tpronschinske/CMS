@@ -1,0 +1,51 @@
+/* Your styles here */
+
+*,
+body,
+html {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header {
+    height: 90px;
+    background: hsl(0, 0%, 96%) !important;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content.page-banner img {
+    width: 100%;
+}
+
+.o-media--logo {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 90px;
+    align-items: center;
+    list-style: none;
+}
+
+.main-menu>li>a {
+    padding: 0 10px;
+    color: #666;
+    font-weight: 600;
+}
+
+.main-menu>li>a:hover {
+    color: #3f51b5;
+}

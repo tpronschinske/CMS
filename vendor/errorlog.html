@@ -1,0 +1,508 @@
+<p>Error on Dec 21, 2016 18:51PM - require(/home/tpronschinske/public_html/junocms.com/app/views/admin/index.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/Core/View.php on line 34</p><p>Error on Dec 21, 2016 20:09PM - require_once(admin/_head.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/templates/admin/auth/header.php on line 8</p><p>Error on Dec 21, 2016 20:09PM - require_once(/admin/_head.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/templates/admin/auth/header.php on line 8</p><p>Error on Dec 21, 2016 20:10PM - require_once(../admin/_head.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/templates/admin/auth/header.php on line 8</p><p>Error on Dec 21, 2016 20:35PM - Missing argument 1 for Core\Error::__construct(), called in /home/tpronschinske/public_html/junocms.com/app/Controllers/PagesController.php on line 20 and defined in /home/tpronschinske/public_html/junocms.com/app/Core/Error.php on line 30</p><p>Error on Dec 21, 2016 20:36PM - Missing argument 1 for Core\Error::__construct(), called in /home/tpronschinske/public_html/junocms.com/app/Controllers/PagesController.php on line 19 and defined in /home/tpronschinske/public_html/junocms.com/app/Core/Error.php on line 30</p><p>Error on Dec 21, 2016 20:36PM - Missing argument 1 for Core\Error::__construct(), called in /home/tpronschinske/public_html/junocms.com/app/Controllers/PagesController.php on line 19 and defined in /home/tpronschinske/public_html/junocms.com/app/Core/Error.php on line 30</p><p>Error on Dec 21, 2016 20:37PM - Missing argument 1 for Core\Error::__construct(), called in /home/tpronschinske/public_html/junocms.com/app/Controllers/PagesController.php on line 19 and defined in /home/tpronschinske/public_html/junocms.com/app/Core/Error.php on line 30</p><h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Dec 22, 2016 15:35PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pageMetaKeywords' in 'field list'</p>
+
+           <p><strong>Code:</strong> 42S22</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 137</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(137): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Pages.php(39): Helpers\Database->insert('pages', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(83): Models\Pages->createPage(Array)
+#3 [internal function]: Controllers\AdminPagesController->createPage()
+#4 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(214): Core\Router::invokeObject('Controllers\\Adm...')
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(35): Core\Router::dispatch()
+#7 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#8 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Dec 22, 2016 15:37PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'pageMetaKeyword' cannot be null</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 137</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(137): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Pages.php(39): Helpers\Database->insert('pages', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(83): Models\Pages->createPage(Array)
+#3 [internal function]: Controllers\AdminPagesController->createPage()
+#4 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(214): Core\Router::invokeObject('Controllers\\Adm...')
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(35): Core\Router::dispatch()
+#7 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#8 {main}</pre>
+
+           <hr />
+<p>Error on Dec 22, 2016 16:29PM - call_user_func_array() expects parameter 1 to be a valid callback, class 'Controllers\AdminPagesController' does not have a method 'editPage' in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 124</p><p>Error on Dec 22, 2016 16:36PM - require(/home/tpronschinske/public_html/junocms.com/app/templates/admin/headerAdmin.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/Core/View.php on line 62</p><p>Error on Dec 22, 2016 16:37PM - require(/home/tpronschinske/public_html/junocms.com/app/templates/admin/headerAdmin.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/Core/View.php on line 62</p><p>Error on Dec 22, 2016 17:39PM - preg_replace(): No ending delimiter '/' found in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/edit.php on line 29</p><p>Error on Dec 22, 2016 19:02PM - require(/home/tpronschinske/public_html/junocms.com/app/views/media/index.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/Core/View.php on line 34</p><p>Error on Dec 22, 2016 19:07PM - include(/filemanager/dialog.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/media/index.php on line 10</p><p>Error on Dec 22, 2016 19:10PM - require_once(/filemanager/dialog.php?type=0): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/media/index.php on line 10</p><p>Error on Dec 22, 2016 19:11PM - require_once(../filemanager/dialog.php?type=0): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/media/index.php on line 10</p><p>Error on Dec 22, 2016 19:12PM - require_once(app/Modules/filemanager/dialog.php?type=0): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/media/index.php on line 10</p><p>Error on Dec 22, 2016 19:17PM - require_once(app/Modules/filemanager/dialog.php?type=0): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/media/index.php on line 10</p><p>Error on Dec 22, 2016 19:18PM - require_once(/app/Modules/filemanager/dialog.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/media/index.php on line 10</p><p>Error on Dec 22, 2016 19:20PM - require_once(filemanager/dialog.php?type=0): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/media/index.php on line 10</p><p>Error on Dec 22, 2016 19:21PM - require_once(filemanager/dialog.php?type=0): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/media/index.php on line 10</p><p>Error on Dec 22, 2016 20:21PM - include(../lang/en_EN.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/filemanager/include/utils.php on line 73</p><p>Error on Dec 22, 2016 20:23PM - include(../lang/en_EN.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/filemanager/include/utils.php on line 73</p><p>Error on Dec 22, 2016 20:24PM - include(../lang/en_EN.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/filemanager/include/utils.php on line 73</p><p>Error on Dec 22, 2016 19:27PM - require_once(filemanager/dialog.php?type=0): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/media/index.php on line 10</p><p>Error on Dec 22, 2016 19:27PM - require_once(filemanager/dialog.php?type=0): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/media/index.php on line 10</p><p>Error on Dec 22, 2016 20:30PM - include(../lang/en_EN.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/filemanager/include/utils.php on line 73</p><p>Error on Dec 22, 2016 20:30PM - include(../lang/en_EN.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/filemanager/include/utils.php on line 73</p><p>Error on Dec 22, 2016 20:31PM - include(../lang/en_EN.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/filemanager/include/utils.php on line 73</p><p>Error on Dec 22, 2016 20:45PM - include(../lang/en_EN.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/media/filemanager/include/utils.php on line 73</p><h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Dec 22, 2016 21:58PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'</p>
+
+           <p><strong>Code:</strong> 42S22</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 109</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Pages.php(31): Helpers\Database->select('SELECT *, (SELE...')
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(34): Models\Pages->getAllPages('LIMIT 0, 5')
+#3 [internal function]: Controllers\AdminPagesController->index()
+#4 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(214): Core\Router::invokeObject('Controllers\\Adm...')
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(37): Core\Router::dispatch()
+#7 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#8 {main}</pre>
+
+           <hr />
+<p>Error on Dec 22, 2016 21:59PM - Invalid argument supplied for foreach() in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/index.php on line 15</p><p>Error on Dec 22, 2016 22:00PM - Invalid argument supplied for foreach() in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/index.php on line 15</p><p>Error on Dec 22, 2016 22:01PM - Invalid argument supplied for foreach() in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/index.php on line 15</p><h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Dec 28, 2016 20:16PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pageId' in 'where clause'</p>
+
+           <p><strong>Code:</strong> 42S22</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 181</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(181): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Settings.php(18): Helpers\Database->update('siteSettings', Array, Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminSettingsController.php(52): Models\Settings->updateSettings(Array, Array)
+#3 [internal function]: Controllers\AdminSettingsController->siteSettings()
+#4 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(214): Core\Router::invokeObject('Controllers\\Adm...')
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(38): Core\Router::dispatch()
+#7 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#8 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Dec 28, 2016 20:17PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'siteUrl' in 'field list'</p>
+
+           <p><strong>Code:</strong> 42S22</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 181</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(181): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Settings.php(18): Helpers\Database->update('siteSettings', Array, Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminSettingsController.php(52): Models\Settings->updateSettings(Array, Array)
+#3 [internal function]: Controllers\AdminSettingsController->siteSettings()
+#4 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(214): Core\Router::invokeObject('Controllers\\Adm...')
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(38): Core\Router::dispatch()
+#7 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#8 {main}</pre>
+
+           <hr />
+<p>Error on Dec 28, 2016 20:57PM - require(/home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/theme.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/Core/View.php on line 34</p><p>Error on Dec 28, 2016 21:02PM - require(/home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/Core/View.php on line 62</p><p>Error on Dec 28, 2016 21:02PM - require(/home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/Core/View.php on line 62</p><p>Error on Dec 28, 2016 21:02PM - require(/home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/Core/View.php on line 62</p><p>Error on Dec 28, 2016 21:02PM - require(/home/tpronschinske/public_html/junocms.com/app/templates/hello/header.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/Core/View.php on line 62</p><p>Error on Dec 28, 2016 21:28PM - scandir(app/Templates/site): failed to open dir: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/theme-settings.php on line 9</p><p>Error on Dec 28, 2016 21:30PM - scandir(/app/Templates/site): failed to open dir: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/theme-settings.php on line 9</p><p>Error on Dec 28, 2016 21:30PM - scandir(/app/templates/site): failed to open dir: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/theme-settings.php on line 9</p><p>Error on Dec 28, 2016 21:30PM - scandir(/app/templates/site): failed to open dir: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/theme-settings.php on line 9</p><p>Error on Dec 29, 2016 14:26PM - scandir(/app/templates/): failed to open dir: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/theme-settings.php on line 11</p><p>Error on Dec 29, 2016 14:27PM - scandir(/app/templates/): failed to open dir: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/theme-settings.php on line 11</p><p>Error on Dec 29, 2016 14:27PM - scandir(/app/templates/): failed to open dir: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/theme-settings.php on line 11</p><p>Error on Dec 29, 2016 14:27PM - scandir(/app/templates/): failed to open dir: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/theme-settings.php on line 11</p><p>Error on Dec 29, 2016 14:27PM - scandir(/app/templates): failed to open dir: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/theme-settings.php on line 11</p><p>Error on Dec 29, 2016 14:28PM - scandir(../../app/templates/): failed to open dir: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/theme-settings.php on line 11</p><p>Error on Dec 29, 2016 14:29PM - scandir(../../app/templates/): failed to open dir: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/settings/theme-settings.php on line 11</p><p>Error on Dec 29, 2016 16:09PM - call_user_func_array() expects parameter 1 to be a valid callback, class 'Controllers\AdminPagesController' does not have a method 'createMenu' in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 124</p><p>Error on Dec 29, 2016 16:19PM - ksort() expects parameter 1 to be array, null given in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 126</p><p>Error on Dec 29, 2016 16:20PM - ksort() expects parameter 1 to be array, null given in /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php on line 126</p><p>Error on Dec 29, 2016 16:41PM - require_once(_error.php): failed to open stream: No such file or directory in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/menu/edit.php on line 18</p><h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Dec 29, 2016 20:40PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens</p>
+
+           <p><strong>Code:</strong> HY093</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 220</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(220): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Menu.php(38): Helpers\Database->delete('DELETE FROM men...', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminMenuController.php(115): Models\Menu->deleteMenuItem('9')
+#3 [internal function]: Controllers\AdminMenuController->deleteMenuItem('9')
+#4 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(249): Core\Router::invokeObject('Controllers\\Adm...', Array)
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(45): Core\Router::dispatch()
+#7 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#8 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Dec 29, 2016 21:47PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'menuParent' cannot be null</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 137</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(137): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Menu.php(26): Helpers\Database->insert('menuItems', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(193): Models\Menu->createMenuItem(Array)
+#3 [internal function]: Controllers\AdminPagesController->editPage('11')
+#4 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(249): Core\Router::invokeObject('Controllers\\Adm...', Array)
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(45): Core\Router::dispatch()
+#7 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#8 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Dec 29, 2016 21:59PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'menuParent' cannot be null</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 137</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(137): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Menu.php(26): Helpers\Database->insert('menuItems', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(196): Models\Menu->createMenuItem(Array)
+#3 [internal function]: Controllers\AdminPagesController->editPage('5')
+#4 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(249): Core\Router::invokeObject('Controllers\\Adm...', Array)
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(45): Core\Router::dispatch()
+#7 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#8 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Dec 29, 2016 22:12PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'menuKey' cannot be null</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 137</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(137): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Menu.php(26): Helpers\Database->insert('menuItems', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(168): Models\Menu->createMenuItem(Array)
+#3 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(76): Controllers\AdminPagesController->updatePageData('12')
+#4 [internal function]: Controllers\AdminPagesController->editPage('12')
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(249): Core\Router::invokeObject('Controllers\\Adm...', Array)
+#7 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(45): Core\Router::dispatch()
+#8 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Dec 30, 2016 14:36PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'menuParent' cannot be null</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 137</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(137): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Menu.php(30): Helpers\Database->insert('menuItems', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminMenuController.php(97): Models\Menu->createMenuItem(Array)
+#3 [internal function]: Controllers\AdminMenuController->editMenu('2')
+#4 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(249): Core\Router::invokeObject('Controllers\\Adm...', Array)
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(45): Core\Router::dispatch()
+#7 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#8 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Dec 30, 2016 14:37PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'menuParent' cannot be null</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 137</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(137): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Menu.php(30): Helpers\Database->insert('menuItems', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminMenuController.php(97): Models\Menu->createMenuItem(Array)
+#3 [internal function]: Controllers\AdminMenuController->editMenu('2')
+#4 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(249): Core\Router::invokeObject('Controllers\\Adm...', Array)
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(45): Core\Router::dispatch()
+#7 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#8 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Dec 30, 2016 14:42PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC' at line 1</p>
+
+           <p><strong>Code:</strong> 42000</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 109</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Menu.php(47): Helpers\Database->select('SELECT * FROM m...', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminMenuController.php(70): Models\Menu->getMainMenuItems('1')
+#3 [internal function]: Controllers\AdminMenuController->editMenu('1')
+#4 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(249): Core\Router::invokeObject('Controllers\\Adm...', Array)
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(45): Core\Router::dispatch()
+#7 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#8 {main}</pre>
+
+           <hr />
+<p>Error on Dec 30, 2016 14:54PM - Invalid argument supplied for foreach() in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 163</p><p>Error on Dec 30, 2016 14:55PM - Invalid argument supplied for foreach() in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 163</p><p>Error on Dec 30, 2016 14:57PM - Invalid argument supplied for foreach() in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 157</p><p>Error on Dec 30, 2016 15:02PM - Invalid argument supplied for foreach() in /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php on line 159</p><h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Dec 30, 2016 15:07PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'menuKey' cannot be null</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 137</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(137): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Menu.php(30): Helpers\Database->insert('menuItems', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(175): Models\Menu->createMenuItem(Array)
+#3 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(77): Controllers\AdminPagesController->updatePageData('11')
+#4 [internal function]: Controllers\AdminPagesController->editPage('11')
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(249): Core\Router::invokeObject('Controllers\\Adm...', Array)
+#7 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(45): Core\Router::dispatch()
+#8 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Dec 30, 2016 15:10PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'menuKey' cannot be null</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 137</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(137): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Menu.php(30): Helpers\Database->insert('menuItems', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(175): Models\Menu->createMenuItem(Array)
+#3 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(77): Controllers\AdminPagesController->updatePageData('11')
+#4 [internal function]: Controllers\AdminPagesController->editPage('11')
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(249): Core\Router::invokeObject('Controllers\\Adm...', Array)
+#7 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(45): Core\Router::dispatch()
+#8 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Dec 30, 2016 15:11PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'menuKey' cannot be null</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 137</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(137): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Menu.php(30): Helpers\Database->insert('menuItems', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(174): Models\Menu->createMenuItem(Array)
+#3 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(77): Controllers\AdminPagesController->updatePageData('11')
+#4 [internal function]: Controllers\AdminPagesController->editPage('11')
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(249): Core\Router::invokeObject('Controllers\\Adm...', Array)
+#7 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(45): Core\Router::dispatch()
+#8 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#9 {main}</pre>
+
+           <hr />
+<p>Error on Dec 30, 2016 15:42PM - Illegal offset type in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 10</p><p>Error on Dec 30, 2016 16:08PM - Invalid argument supplied for foreach() in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 6</p><p>Error on Dec 30, 2016 16:08PM - Invalid argument supplied for foreach() in /home/tpronschinske/public_html/junocms.com/app/views/qadmin/pages/_menusSelect.php on line 6</p><p>Error on Dec 30, 2016 18:14PM - call_user_func_array() expects parameter 1 to be a valid callback, class 'Controllers\AdminContentAreaController' does not have a method 'index' in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 124</p><p>Error on Dec 30, 2016 18:14PM - call_user_func_array() expects parameter 1 to be a valid callback, class 'Controllers\AdminContentAreaController' does not have a method 'index' in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 124</p><p>Error on Dec 30, 2016 18:15PM - call_user_func_array() expects parameter 1 to be a valid callback, class 'Controllers\AdminContentAreaController' does not have a method 'index' in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 124</p><h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Jan 01, 2017 2:57AM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'onmenu.menuKey= menuItems.menuKey WHERE menuItemLink='/about'' at line 1</p>
+
+           <p><strong>Code:</strong> 42000</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 109</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(109): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Menu.php(70): Helpers\Database->select('SELECT * FROM m...', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(74): Models\Menu->getAllMenuItemsInMenuByUrl('about')
+#3 [internal function]: Controllers\AdminPagesController->editPage('2')
+#4 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(249): Core\Router::invokeObject('Controllers\\Adm...', Array)
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(50): Core\Router::dispatch()
+#7 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#8 {main}</pre>
+
+           <hr />
+<p>Error on Jan 01, 2017 4:25AM - call_user_func_array() expects parameter 1 to be a valid callback, class 'Controllers\AdminContentAreaController' does not have a method 'createContentArea' in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 124</p><p>Error on Jan 01, 2017 4:25AM - call_user_func_array() expects parameter 1 to be a valid callback, class 'Controllers\AdminContentAreaController' does not have a method 'createContentArea' in /home/tpronschinske/public_html/junocms.com/app/Core/Router.php on line 124</p><h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Jan 01, 2017 4:34AM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'menuItemLink' cannot be null</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 137</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(137): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Menu.php(30): Helpers\Database->insert('menuItems', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(262): Models\Menu->createMenuItem(Array)
+#3 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(58): Controllers\AdminPagesController->postPageData()
+#4 [internal function]: Controllers\AdminPagesController->createPage()
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(214): Core\Router::invokeObject('Controllers\\Adm...')
+#7 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(50): Core\Router::dispatch()
+#8 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Jan 03, 2017 15:14PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'menuItemLink' cannot be null</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 137</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(137): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Menu.php(30): Helpers\Database->insert('menuItems', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(262): Models\Menu->createMenuItem(Array)
+#3 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(58): Controllers\AdminPagesController->postPageData()
+#4 [internal function]: Controllers\AdminPagesController->createPage()
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(214): Core\Router::invokeObject('Controllers\\Adm...')
+#7 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(50): Core\Router::dispatch()
+#8 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Jan 03, 2017 15:17PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'menuParent' cannot be null</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 137</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(137): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Menu.php(30): Helpers\Database->insert('menuItems', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(263): Models\Menu->createMenuItem(Array)
+#3 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(58): Controllers\AdminPagesController->postPageData()
+#4 [internal function]: Controllers\AdminPagesController->createPage()
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(214): Core\Router::invokeObject('Controllers\\Adm...')
+#7 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(50): Core\Router::dispatch()
+#8 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#9 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Jan 03, 2017 15:17PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'menuParent' cannot be null</p>
+
+           <p><strong>Code:</strong> 23000</p>
+
+           <p><strong>File:</strong> /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php</p>
+
+           <p><strong>Line:</strong> 137</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 /home/tpronschinske/public_html/junocms.com/app/Helpers/Database.php(137): PDOStatement->execute()
+#1 /home/tpronschinske/public_html/junocms.com/app/Models/Menu.php(30): Helpers\Database->insert('menuItems', Array)
+#2 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(263): Models\Menu->createMenuItem(Array)
+#3 /home/tpronschinske/public_html/junocms.com/app/Controllers/AdminPagesController.php(58): Controllers\AdminPagesController->postPageData()
+#4 [internal function]: Controllers\AdminPagesController->createPage()
+#5 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(124): call_user_func_array(Array, Array)
+#6 /home/tpronschinske/public_html/junocms.com/app/Core/Router.php(214): Core\Router::invokeObject('Controllers\\Adm...')
+#7 /home/tpronschinske/public_html/junocms.com/app/Core/routes.php(50): Core\Router::dispatch()
+#8 /home/tpronschinske/public_html/junocms.com/index.php(80): require('/home/tpronschi...')
+#9 {main}</pre>
+
+           <hr />
