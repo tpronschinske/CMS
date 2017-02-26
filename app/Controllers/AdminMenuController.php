@@ -67,7 +67,7 @@ class AdminMenuController extends Controller
         $data['title'] = 'CMS';
 
         $data['pageLinks'] = $this->_pages->getAllPages();
-        $data['menuItems'] = $this->_menu->getMainMenuItems($menuId);
+        $data['menuItems'] = $this->_menu->getMainMenuItemsSorted($menuId);
         $data['menu'] = $this->_menu->getMenuById($menuId);
         Session::set('menuId', $menuId);
 
@@ -75,6 +75,7 @@ class AdminMenuController extends Controller
 
             $menuKey = $menuId;
             $page = $_POST['addPage'];
+            $customUrl = $_POST['customLink'];
             $pageParent = $_POST['parentItem'];
 
             if($pageParent == 1){
@@ -83,15 +84,22 @@ class AdminMenuController extends Controller
 
             $menuItemName = $_POST['menuItemName'];
             $menuLinkTitle = $_POST['menuItemLinkTitle'];
+            $menuLinkSortOrder = $_POST['menuItemLinkSort'];
 
-            $pageUrl = '/' . $this->_pages->getPageUrlById($page);
+            if($page != 0){
+                $pageUrl = '/' . $this->_pages->getPageUrlById($page);
+            } else {
+                $pageUrl = '/' . $customUrl;
+            }
 
             $menuData = array(
               'menuItemName' => $menuItemName,
               'menuItemLink' => $pageUrl,
               'menuKey' => $menuId,
               'menuItemLinkTitle' => $menuLinkTitle,
-              'menuParent' => $pageParent
+              'menuItemLinkTitle' => $menuLinkTitle,
+              'menuParent' => $pageParent,
+              'menuSort' =>  $menuLinkSortOrder,
 
             );
 

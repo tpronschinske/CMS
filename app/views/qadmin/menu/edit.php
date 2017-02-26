@@ -26,12 +26,17 @@ use \Core\Error;
                                         <div class="col_12">
                                             <label class="form_label" for="addPage">Add To Menu</label>
                                             <select name="addPage" class="form_input">
+                                                <option value="0">Custom Link</option>
                                                 <?php foreach ($data['pageLinks'] as $row) {
     
                                                     echo "<option value='$row->pageId'>$row->pageName</option>";
                                                 
                                                 } ?>
                                             </select>
+                                        </div>
+                                        <div class="col_12">
+                                             <label class="form_label" for="menuItemName">Custom Link Url</label>
+                                             <?php echo Form::input(array('name' => 'customLink', 'type' => 'text' ,'class' => 'form_input')); ?>
                                         </div>
                                         <div class="col_12">
                                             <label class="form_label" for="parentItem">Parent Menu Item</label>
@@ -44,13 +49,17 @@ use \Core\Error;
                                                 } ?>
                                             </select>
                                         </div>
-                                         <div class="col_12">
+                                        <div class="col_12">
                                              <label class="form_label" for="menuItemName">Menu Item Name</label>
                                              <?php echo Form::input(array('name' => 'menuItemName', 'type' => 'text' ,'class' => 'form_input')); ?>
                                         </div>
                                          <div class="col_12">
                                              <label class="form_label" for="menuItemLinkTitle">Menu Link Title</label>
                                              <?php echo Form::input(array('name' => 'menuItemLinkTitle', 'type' => 'text' ,'class' => 'form_input')); ?>
+                                        </div>
+                                        <div class="col_12">
+                                             <label class="form_label" for="menuItemLinkTitle">Sort Order</label>
+                                             <?php echo Form::input(array('name' => 'menuItemLinkSort', 'type' => 'text' ,'class' => 'form_input')); ?>
                                         </div>
                                     </div>
                                    

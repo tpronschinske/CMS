@@ -43,8 +43,12 @@ class Menu extends \Core\Model {
 	     $this->db->delete(PREFIX . 'menuItems', $where);
 	}
 
-    public function getMainMenuItems($menuId){
+  public function getMainMenuItems($menuId){
 	     return $this->db->select("SELECT * FROM " . PREFIX . "menuItems WHERE menuKey=:menuKey", array(':menuKey' => $menuId));
+	}
+
+	public function getMainMenuItemsSorted($menuId){
+	     return $this->db->select("SELECT * FROM " . PREFIX . "menuItems WHERE menuKey=:menuKey ORDER BY menuSort ASC", array(':menuKey' => $menuId));
 	}
 
 	public function getMenuByKey($keyId){

@@ -86,14 +86,23 @@ use \Helpers\Session;
                     </div>
 
                     <div class="col_12 margin-bottom--10">
-                        <label class="form_label" for="articleParent">Category</label>
-                        <select name="articleParent" class="form_select">
+                        <label class="form_label" for="articleCategory">Category</label>
+                        <select name="articleCategory" class="form_select">
 					        <option value="0">No category</option>
+                              <?php
+                                if($data["categories"]){
+                               foreach ($data['categories'] as $row) {
+                                        echo "<option value='$row->categoryId'>$row->categoryName</option>";
+                                }} ?>
                         </select>
                     </div>
 
                     <div class="col_12 margin-top--10">
-                        <?php  echo Form::input(array('type' => 'submit', 'name' => 'submit', 'value' => 'Publish', 'type' => 'submit',  'class' => 'button button_site_color width-100')); ?>
+                        <?php  echo Form::input(array('type' => 'submit', 'name' => 'submit', 'value' => 'Update', 'type' => 'submit',  'class' => 'button button_site_color width-100')); ?>
+                    </div>
+
+                    <div class="col_12 margin-top--10">
+                        <a class="button button_app_color width-100" href="/articles/<?php echo $data['articleData'][0]->articleUrl; ?>" target="_blank">View Article</a>
                     </div>
 
                 </div>

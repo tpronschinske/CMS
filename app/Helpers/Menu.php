@@ -12,7 +12,7 @@ class Menu
 
 			 $db = Database::get();
 			 $id = $keyId;
-			 $data['menuItems'] = $db->select("SELECT * FROM " . PREFIX . "menuItems WHERE menuKey=:menuKey", array(':menuKey' => $id));
+			 $data['menuItems'] = $db->select("SELECT * FROM " . PREFIX . "menuItems WHERE menuKey=:menuKey ORDER BY menuSort ASC", array(':menuKey' => $id));
 
 
 			 if ($data['menuItems']){
@@ -35,7 +35,7 @@ class Menu
                     } else {
                         $menu .='<li class="menu-item"><a href="'. $link .'" title="'. $menuTitle .'">'. $linkName . '</a>';
 
-                        $data['subMenuItems'] = $db->select("SELECT * FROM " . PREFIX . "menuItems WHERE menuParent=:menuItemId", array(':menuItemId' => $id));
+                        $data['subMenuItems'] = $db->select("SELECT * FROM " . PREFIX . "menuItems WHERE menuParent=:menuItemId  ORDER BY menuSort ASC", array(':menuItemId' => $id));
 
                             if($data['subMenuItems']){
                                 $menu .= '<ul class="sub-menu">';

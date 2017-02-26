@@ -27,6 +27,13 @@
                 <nav class="application_navigation">
                     <ul class="main_nav">
                         <li class="main_nav_item"><a href="/qadmin">Dashboard</a></li>
+                        <li class="main_nav_item"><a>Articles </a><span class="sub-nav-dropdown"><i class="material-icons">keyboard_arrow_down</i></span>
+                            <ul class="main_nav_sub">
+                                <li class="main_nav_sub__item"><a href="/qadmin/articles">View Articles</a></li>
+                                <li class="main_nav_sub__item"><a href="/qadmin/articles/add">New Article</a></li>
+                                <li class="main_nav_sub__item"><a href="/qadmin/categories">Categories</a></li>
+                            </ul>
+                        </li>
                         <li class="main_nav_item"><a href="/qadmin/pages">Pages</a></li>
                         <li class="main_nav_item"><a href="/qadmin/media">Media</a></li>
                         <li class="main_nav_item"><a href="/qadmin/menu">Menu</a></li>

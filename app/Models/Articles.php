@@ -44,6 +44,11 @@ class Articles extends \Core\Model {
 		return $data[0]->articleUrl;
 	}
 
+	public function getArticlesByCategory($catId){
+		$data = $this->db->select("SELECT * FROM " . PREFIX . "articles WHERE categoryId=:categoryId", array(':categoryId' => $catId));
+		return $data;
+	}
+
 	public function createArticle($articleData){
 		 $this->db->insert(PREFIX . 'articles', $articleData);
 	}

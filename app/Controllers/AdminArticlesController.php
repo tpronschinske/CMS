@@ -11,6 +11,7 @@ use Helpers\AjaxHandler as Ajax;
 class AdminArticlesController extends Controller {
 
     private $_articles;
+    private $_categories;
 
     public function __construct() {
 
@@ -19,6 +20,7 @@ class AdminArticlesController extends Controller {
       }
 
     $this->_articles = new \Models\Articles();
+    $this->_categories = new \Models\Categories();
 
     }
 
@@ -42,6 +44,7 @@ class AdminArticlesController extends Controller {
 
         $data['title'] = 'CMS';
         $data['welcome_message'] = 'articles';
+        $data['categories'] = $this->_categories->getAllCategories();
 
         if($_SERVER['REQUEST_METHOD'] == 'POST'){
             $articleName = $_POST["articleName"];
@@ -69,6 +72,7 @@ class AdminArticlesController extends Controller {
                 'articleStatus' => $articleStatus,
                 'articleCreatedBy' => $articleCreatedBy,
                 'articleImage' => $articleImage,
+                'categoryId' => $articleCategory
             );
 
          
@@ -92,6 +96,7 @@ class AdminArticlesController extends Controller {
 
         $data['title'] = "Edit article";
         $data['articleData'] = $this->_articles->getArticleById($articleId);
+        $data['categories'] = $this->_categories->getAllCategories();
 
         if($_SERVER['REQUEST_METHOD'] == 'POST'){
             $articleName = $_POST["articleName"];
@@ -119,6 +124,7 @@ class AdminArticlesController extends Controller {
                 'articleStatus' => $articleStatus,
                 'articleCreatedBy' => $articleCreatedBy,
                 'articleImage' => $articleImage,
+                'categoryId' => $articleCategory
             );
 
          

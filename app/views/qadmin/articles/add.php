@@ -87,9 +87,14 @@ use \Helpers\Session;
                     </div>
 
                     <div class="col_12 margin-bottom--10">
-                        <label class="form_label" for="articleParent">Category</label>
-                        <select name="articleParent" class="form_select">
-					        <option value="0">No category</option>
+                        <label class="form_label" for="articleCategory">Category</label>
+                        <select name="articleCategory" class="form_select">
+					       <option value="0">No category</option>
+                              <?php
+                                if($data["categories"]){
+                               foreach ($data['categories'] as $row) {
+                                        echo "<option value='$row->categoryId'>$row->categoryName</option>";
+                                }} ?>
                         </select>
                     </div>
 

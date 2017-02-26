@@ -16,10 +16,11 @@ if ($data['menuItems']){
         $menuTitle = $row->menuItemLinkTitle;
         $parent = $row->menuParent;
         $hasSubMenu = $row->childLinks;
+        $sortNum = $row->menuSort;
 
     if ($hasSubMenu != 1){
         if($parent == 0){
-            $menu .= '<li class="menu-item"><a href="'. $link .'" title="'. $menuTitle .'" target="_blank">'. $linkName .'</a><a class="clickable-delete-link" href="/qadmin/menu/delete-item/' . $id .'"><i class="material-icons">close</i></a></li>';
+            $menu .= '<li class="menu-item"><a href="'. $link .'" title="'. $menuTitle .'" target="_blank">'. $linkName .'</a> - <span class="sort-num"> Sort Order ('. $sortNum .')</span><a class="clickable-delete-link" href="/qadmin/menu/delete-item/' . $id .'"><i class="material-icons">close</i></a></li>';
         }
     } else {
         $menu .='<li class="menu-item"><a href="'. $link .'" title="'. $menuTitle .'" target="_blank">'. $linkName . '</a><a class="clickable-delete-link" href="/qadmin/menu/delete-item/' . $id .'"><i class="material-icons">close</i></a>';

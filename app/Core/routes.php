@@ -9,6 +9,8 @@ use Helpers\Hooks;
 Router::any('', 'Controllers\PagesController@index');
 Router::get('articles', 'Controllers\ArticlesController@articleList');
 Router::get('articles/(:any)', 'Controllers\ArticlesController@index');
+Router::get('cat', 'Controllers\CategoriesController@categoryList');
+Router::get('cat/(:any)', 'Controllers\CategoriesController@index');
 
 Router::any('qadmin', 'Controllers\AdminController@index');
 Router::any('login', 'Controllers\AuthController@login');
@@ -24,6 +26,9 @@ Router::any('qadmin/articles', 'Controllers\AdminArticlesController@index');
 Router::any('qadmin/articles/add', 'Controllers\AdminArticlesController@createArticle');
 Router::any('qadmin/articles/edit/(:num)', 'Controllers\AdminArticlesController@editArticle');
 Router::any('qadmin/articles/delete/(:num)', 'Controllers\AdminArticlesController@deleteArticle');
+
+Router::any('qadmin/categories', 'Controllers\AdminCategoriesController@index');
+Router::any('qadmin/categories/delete/(:num)', 'Controllers\AdminCategoriesController@deleteCategory');
 
 Router::any('qadmin/menu', 'Controllers\AdminMenuController@index');
 Router::any('qadmin/menu/add', 'Controllers\AdminMenuController@createMenu');
